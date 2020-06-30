@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Dog API GET Request</h1>
+            <br>
+        </section>
+        <form action="get" class="form-group">
+            <fieldset>
+                <label for="dogBreed">Which breed of dog would you like?</label>
+                <input type="text"
+                value="Name a dog breed"
+                name="Dog Breed"
+                id="dogBreed"
+                required
+                />
+                <input type="submit"
+                value="get doggy pics"
+                class="submit-button"
+                />
+            </fieldset>
+        </form>
+        <div class="results"></div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
